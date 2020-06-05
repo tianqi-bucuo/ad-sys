@@ -2,86 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835bd573-7412-447e-992f-23a3d7614c22" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdCreativeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdCreativeUnitTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdPlanTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdUnitDistrictTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdUnitItTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdUnitKeywordTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/table/AdUnitTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/ad-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/client/SponsorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/client/SponsorClientHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/client/vo/AdPlan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/client/vo/AdPlanGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/handler/AdLevelDataHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/CommonStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/DataLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/DataTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/IndexAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/IndexFileLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adplan/AdPlanIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adplan/AdPlanObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adunit/AdUnitConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adunit/AdUnitIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adunit/AdUnitObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/creative/CreativeIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/creative/CreativeObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/creativeunit/CreativeUnitIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/creativeunit/CreativeUnitObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/district/UnitDistrictIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/district/UnitDistrictObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/interest/UnitItIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/interest/UnitItObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/keyword/UnitKeywordIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/keyword/UnitKeywordObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/BinlogClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/BinlogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/TemplateHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/constant/OpType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/BinlogRowData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/JsonTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/MySqlRowData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/ParseTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/TableTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/listener/AggregationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/listener/Ilistener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/listener/IncrementListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/runner/BinlogRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/sender/ISender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/sender/index/IndexSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/sender/kafka/KafkaSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/service/BinlogServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/utils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-search/src/main/resources/template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/service/AdPlanServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/service/DumpDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-gateway/src/main/java/com/cky/ad/filter/AccessLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/com/cky/ad/filter/AccessLogFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-gateway/src/main/java/com/cky/ad/filter/PreRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-gateway/src/main/java/com/cky/ad/filter/PreRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/advice/CommonResponseDataAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/advice/CommonResponseDataAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/exception/AdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/exception/AdException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/vo/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/vo/CommonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/controller/UserOPController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/controller/UserOPController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/AdPlanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/AdPlanServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/AdUnitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/AdUnitServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/CreativeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/CreativeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreateUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreateUserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreativeUnitRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreativeUnitRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreativeUnitResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/vo/CreativeUnitResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,38 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnitKeywordIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/keyword/UnitKeywordIndex.java">
+      <file leaf-file-name="DConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataTable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/DataTable.java">
+      <file leaf-file-name="DumpDataService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/service/DumpDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdPlanIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adplan/AdPlanIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdUnitConstants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/adunit/AdUnitConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="94" column="44" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -192,7 +96,6 @@
         <option value="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/sender/ISender.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/CommonStatus.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/IndexFileLoader.java" />
-        <option value="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/vo/CommonResponse.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/exception/AdException.java" />
         <option value="$PROJECT_DIR$/ad-gateway/src/main/java/com/cky/ad/filter/PreRequestFilter.java" />
@@ -208,6 +111,7 @@
         <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/service/impl/CreativeServiceImpl.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-sponsor/src/main/java/com/cky/ad/controller/UserOPController.java" />
         <option value="$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/DataTable.java" />
+        <option value="$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java" />
       </list>
     </option>
   </component>
@@ -258,74 +162,6 @@
             <path>
               <item name="ad" type="b2602c69:ProjectViewProjectNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
               <item name="ad-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,136 +238,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cky" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="advice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ad-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cky" type="462c0819:PsiDirectoryNode" />
-              <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="keyword" type="462c0819:PsiDirectoryNode" />
+              <item name="dump" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ad" type="b2602c69:ProjectViewProjectNode" />
@@ -602,12 +309,71 @@
               <item name="ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cky" type="462c0819:PsiDirectoryNode" />
               <item name="ad" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cky" type="462c0819:PsiDirectoryNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ad" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="ad-sponsor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -657,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinlogServiceTest">
+  <component name="RunManager" selected="JUnit.DumpDataService.dumpAdTableData">
     <configuration name="BinlogServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cky.ad.service.BinlogServiceTest" />
       <module name="ad-search" />
@@ -693,6 +459,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DumpDataService.dumpAdTableData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ad-sponsor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cky.ad.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cky.ad.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cky.ad.service.DumpDataService" />
+      <option name="METHOD_NAME" value="dumpAdTableData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -756,9 +545,11 @@
       <item itemvalue="Application.ZuulGatewayApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
       <item itemvalue="Application.BinlogServiceTest" />
+      <item itemvalue="JUnit.DumpDataService.dumpAdTableData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DumpDataService.dumpAdTableData" />
         <item itemvalue="Application.BinlogServiceTest" />
         <item itemvalue="Application.ZuulGatewayApplication" />
         <item itemvalue="Application.EurekaApplication" />
@@ -779,12 +570,23 @@
       <workItem from="1591234173431" duration="25056000" />
       <workItem from="1591285477426" duration="440000" />
       <workItem from="1591319248310" duration="6535000" />
-      <workItem from="1591336696378" duration="18320000" />
+      <workItem from="1591336696378" duration="20982000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DumpDataService_dumpAdTableData - 2020.06.05 at 23h 39m 01s.xml">
+      <configuration name="DumpDataService.dumpAdTableData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DumpDataService_dumpAdTableData - 2020.06.05 at 23h 43m 14s.xml">
+      <configuration name="DumpDataService.dumpAdTableData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DumpDataService_dumpAdTableData - 2020.06.05 at 23h 46m 45s.xml">
+      <configuration name="DumpDataService.dumpAdTableData" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54381000" />
+    <option name="totallyTimeSpent" value="57043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -809,10 +611,10 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run Dashboard" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49586776" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8694215" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.43305784" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -867,46 +669,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/TableTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/dto/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/BinlogClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/BinlogConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/mysql/TemplateHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1254,8 +1016,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ad-service/ad-search/src/main/java/com/cky/ad/index/DataTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="-216">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/service/AdPlanServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-common/src/main/java/com/cky/ad/dump/DConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad-service/ad-sponsor/src/test/java/com/cky/ad/service/DumpDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="94" column="44" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="44" />
         </state>
       </provider>
     </entry>
