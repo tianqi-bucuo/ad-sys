@@ -17,12 +17,8 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 public class UserServiceImpl implements IUserService {
 
-    private final AdUserRepository userRepository;
-
     @Autowired
-    public UserServiceImpl(AdUserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+    private AdUserRepository userRepository;
 
     @Override
     @Transactional

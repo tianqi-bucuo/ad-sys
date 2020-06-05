@@ -11,12 +11,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class CreativeServiceImpl implements ICreativeService {
 
-    private final CreativeRepository creativeRepository;
-
     @Autowired
-    public CreativeServiceImpl(CreativeRepository creativeRepository) {
-        this.creativeRepository = creativeRepository;
-    }
+    private CreativeRepository creativeRepository;
 
     @Override
     public CreativeResponse createCreative(CreativeRequest request) {

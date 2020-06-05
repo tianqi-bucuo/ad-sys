@@ -15,12 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserOPController {
 
-    private final IUserService userService;
-
     @Autowired
-    public UserOPController(IUserService userService) {
-        this.userService = userService;
-    }
+    private IUserService userService;
 
     @PostMapping("/create/user")
     public CreateUserResponse createUser(

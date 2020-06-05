@@ -31,30 +31,20 @@ import java.util.stream.Collectors;
 @Service
 public class AdUnitServiceImpl implements IAdUnitService {
 
-    private final AdPlanRepository planRepository;
-    private final AdUnitRepository unitRepository;
-
-    private final AdUnitKeywordRepository unitKeywordRepository;
-    private final AdUnitItRepository unitItRepository;
-    private final AdUnitDistrictRepository unitDistrictRepository;
-
-    private final CreativeRepository creativeRepository;
-    private final CreativeUnitRepository creativeUnitRepository;
-
     @Autowired
-    public AdUnitServiceImpl(AdPlanRepository planRepository,
-                             AdUnitRepository unitRepository,
-                             AdUnitKeywordRepository unitKeywordRepository,
-                             AdUnitItRepository unitItRepository,
-                             AdUnitDistrictRepository unitDistrictRepository, CreativeRepository creativeRepository, CreativeUnitRepository creativeUnitRepository) {
-        this.planRepository = planRepository;
-        this.unitRepository = unitRepository;
-        this.unitKeywordRepository = unitKeywordRepository;
-        this.unitItRepository = unitItRepository;
-        this.unitDistrictRepository = unitDistrictRepository;
-        this.creativeRepository = creativeRepository;
-        this.creativeUnitRepository = creativeUnitRepository;
-    }
+    private AdPlanRepository planRepository;
+    @Autowired
+    private AdUnitRepository unitRepository;
+    @Autowired
+    private AdUnitKeywordRepository unitKeywordRepository;
+    @Autowired
+    private AdUnitItRepository unitItRepository;
+    @Autowired
+    private AdUnitDistrictRepository unitDistrictRepository;
+    @Autowired
+    private CreativeRepository creativeRepository;
+    @Autowired
+    private CreativeUnitRepository creativeUnitRepository;
 
     @Override
     public AdUnitResponse createUnit(AdUnitRequest request)
