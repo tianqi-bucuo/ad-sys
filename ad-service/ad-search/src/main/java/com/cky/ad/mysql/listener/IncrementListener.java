@@ -23,12 +23,8 @@ public class IncrementListener implements Ilistener {
     @Resource(name = "kafkaSender")
     private ISender sender;
 
-    private final AggregationListener aggregationListener;
-
     @Autowired
-    public IncrementListener(AggregationListener aggregationListener) {
-        this.aggregationListener = aggregationListener;
-    }
+    private AggregationListener aggregationListener;
 
     @Override
     @PostConstruct

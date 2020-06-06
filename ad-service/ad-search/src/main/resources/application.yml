@@ -47,6 +47,7 @@ adconf:
     port: 3306
     username: root
     password: 123456
+    # 监听binlog文件名
     binlogName: ""
     position: -1
 

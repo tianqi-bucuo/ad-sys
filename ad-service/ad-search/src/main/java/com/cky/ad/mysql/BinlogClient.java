@@ -15,14 +15,10 @@ public class BinlogClient {
 
     private BinaryLogClient client;
 
-    private final BinlogConfig config;
-    private final AggregationListener listener;
-
     @Autowired
-    public BinlogClient(BinlogConfig config, AggregationListener listener) {
-        this.config = config;
-        this.listener = listener;
-    }
+    private BinlogConfig config;
+    @Autowired
+    private AggregationListener listener;
 
     public void connect() {
 

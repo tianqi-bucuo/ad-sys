@@ -16,10 +16,12 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// 实现全量索引的加载
 @Component
 @DependsOn("dataTable")
 public class IndexFileLoader {
 
+    // IOC加载IndexFileLoader时就会运行
     @PostConstruct
     public void init() {
 

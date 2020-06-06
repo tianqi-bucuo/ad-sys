@@ -8,28 +8,6 @@ import com.github.shyiko.mysql.binlog.event.WriteRowsEventData;
 
 public class BinlogServiceTest {
 
-//    Write---------------
-//    WriteRowsEventData{tableId=85, includedColumns={0, 1, 2}, rows=[
-//    [10, 10, 宝马]
-//]}
-//    Update--------------
-//    UpdateRowsEventData{tableId=85, includedColumnsBeforeUpdate={0, 1, 2},
-// includedColumns={0, 1, 2}, rows=[
-//        {before=[10, 10, 宝马], after=[10, 11, 宝马]}
-//]}
-//    Delete--------------
-//    DeleteRowsEventData{tableId=85, includedColumns={0, 1, 2}, rows=[
-//    [11, 10, 奔驰]
-//]}
-
-
-//    Write---------------
-//    WriteRowsEventData{tableId=70, includedColumns={0, 1, 2, 3, 4, 5, 6, 7}, rows=[
-//    [12, 10, plan, 1, Tue Jan 01 08:00:00 CST 2019, Tue Jan 01 08:00:00 CST 2019, Tue Jan 01 08:00:00 CST 2019, Tue Jan 01 08:00:00 CST 2019]
-//]}
-
-    // Tue Jan 01 08:00:00 CST 2019
-
     public static void main(String[] args) throws Exception {
 
         BinaryLogClient client = new BinaryLogClient(
@@ -38,13 +16,16 @@ public class BinlogServiceTest {
                 "root",
                 "123456"
         );
+//        监听文件名
 //        client.setBinlogFilename("binlog.000037");
+//        开始监听位置
 //        client.setBinlogPosition();
 
+        // 注册监听器，监听mysql
         client.registerEventListener(event -> {
 
             EventData data = event.getData();
-
+            // 根据数据库变化类型输出不同信息提示
             if (data instanceof UpdateRowsEventData) {
                 System.out.println("Update--------------");
                 System.out.println(data.toString());

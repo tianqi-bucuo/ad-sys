@@ -28,7 +28,6 @@ public class DataTable implements ApplicationContextAware, PriorityOrdered {
         return PriorityOrdered.HIGHEST_PRECEDENCE;
     }
 
-    @SuppressWarnings("all")
     public static <T> T of(Class<T> clazz) {
 
         T instance = (T) dataTableMap.get(clazz);

@@ -63,6 +63,8 @@ public class ParseTemplate {
 
     private static <T, R> R getAndCreateIfNeed(T key, Map<T, R> map,
                                                Supplier<R> factory) {
+        // factory.get()得到一个R对象
+        // 如果不存在k，则将k-R存入map
         return map.computeIfAbsent(key, k -> factory.get());
     }
 }

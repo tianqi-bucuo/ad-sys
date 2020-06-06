@@ -6,16 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+// 继承CommandLineRunner，服务启动后立即运行
 @Slf4j
 @Component
 public class BinlogRunner implements CommandLineRunner {
 
-    private final BinlogClient client;
-
     @Autowired
-    public BinlogRunner(BinlogClient client) {
-        this.client = client;
-    }
+    private BinlogClient client;
 
     @Override
     public void run(String... strings) throws Exception {

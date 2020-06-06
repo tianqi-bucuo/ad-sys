@@ -18,7 +18,6 @@ import com.cky.ad.index.keyword.UnitKeywordIndex;
 import com.cky.ad.mysql.constant.OpType;
 import com.cky.ad.utils.CommonUtils;
 import lombok.extern.slf4j.Slf4j;
-
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
@@ -70,6 +69,7 @@ public class AdLevelDataHandler {
 
     public static void handleLevel3(AdUnitTable unitTable, OpType type) {
 
+        // 检查unitTable依赖的AdPlan是否存在(unit与AdPlan存在外检约束)
         AdPlanObject adPlanObject = DataTable.of(
                 AdPlanIndex.class
         ).get(unitTable.getPlanId());
@@ -98,11 +98,13 @@ public class AdLevelDataHandler {
     public static void handleLevel3(AdCreativeUnitTable creativeUnitTable,
                                     OpType type) {
 
+        // 创意单元AdCreativeUnit不能更新
         if (type == OpType.UPDATE) {
             log.error("CreativeUnitIndex not support update");
             return;
         }
 
+        // 检查外检依赖是否存在
         AdUnitObject unitObject = DataTable.of(
                 AdUnitIndex.class
         ).get(creativeUnitTable.getUnitId());
