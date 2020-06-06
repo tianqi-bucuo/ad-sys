@@ -3,7 +3,7 @@ package com.cky.ad.dump;
 public class DConstant {
 
     // 存储路径名
-    public static final String DATA_ROOT_DIR = "F:\\dump";
+    public static final String DATA_ROOT_DIR = "F:\\dump\\";
     // 各个表数据的存储文件名
     public static final String AD_PLAN = "ad_plan.data";
     public static final String AD_UNIT = "ad_unit.data";
